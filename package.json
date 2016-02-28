@@ -1,0 +1,29 @@
+{
+  "name": "tim-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register 'test/**/*.@(js|jsx)'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  },
+  "dependencies": {
+    "botkit": "0.0.7",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^2.1.7",
+    "lodash": "^4.5.1",
+    "moment": "^2.11.2"
+  }
+}
